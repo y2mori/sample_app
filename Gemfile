@@ -16,10 +16,6 @@ group :test do
   gem 'webrat', '0.7.1'
 end
 
-group :production, :staging do
-  gem "pg", "0.9.0"
-end
-
 # Use unicorn as the web server
 # gem 'unicorn'
 
